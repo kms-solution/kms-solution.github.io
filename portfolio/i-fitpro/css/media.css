@@ -1,0 +1,129 @@
+@media screen and (max-width: 481px) {
+    label.btn span {
+	    padding: 7px 10px;
+	}
+}
+@media screen and (max-width: 769px) {
+	.padding{
+		padding-top: 10px;
+    		padding-bottom: 10px;
+	}
+	body header .navbar-nav li {
+	    padding-left: 0px;
+	    padding-top: 20px;
+	}
+	body header .navbar-nav li:last-child{
+		margin-bottom: 20px;
+	}
+	body header .navbar-nav li a {
+	    margin-left: 10px;
+	}
+	.exercise-mob-margin{
+		margin: 10px 0;
+	}
+	footer .copyright {
+	    text-align: center;
+	}
+	header  img{
+		height: 80px;
+	}
+	.content {
+	    margin-bottom: 20px;
+	}
+	#nav-btn{
+		margin-top: calc(104px / 2 - 25px);
+	}
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 766px) { 
+    body header .navbar-nav li a {
+    	font-size: 1.1rem;
+    }
+    .radio-wrapper{
+		justify-content: flex-start;
+	}
+	.radio-wrapper label:last-child{
+	    padding-left: 30px;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 766px) { 
+    body header .navbar-nav li a {
+    	font-size: 1.1rem;
+    }
+    .radio-wrapper{
+		justify-content: flex-start;
+	}
+	.radio-wrapper label:last-child{
+	    padding-left: 30px;
+	}
+}
+
+@media screen and (min-device-width: 767px) and (max-device-width: 991px) {
+	main label {
+	    display: initial;
+	    font-weight: 700;
+	    font-size: 0.78rem;
+	    padding-left: 0;
+	}
+	label.btn span {
+	    padding: 7px 10px;
+	}
+	.post-nav a {
+	    margin-bottom: 10px;
+	    display: inline-block;
+	}
+	main .form-control {
+	    font-size: 0.85rem;
+	}
+	main .exercise {
+	    font-size: .85rem;
+	}
+	.sidebar .sidebar-wrapper h3 {
+	    text-transform: uppercase;
+	    font-size: 1.2rem;
+	}
+	.radio-wrapper label {
+	    text-align: center;
+	    padding-right: 10px;
+	}
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+	main label {
+	    display: initial;
+	    font-weight: 700;
+	    font-size: 0.78rem;
+	    padding-left: 0;
+	}
+	label.btn span {
+	    padding: 7px 10px;
+	}
+	.post-nav a {
+	    margin-bottom: 10px;
+	    display: inline-block;
+	}
+	main .form-control {
+	    font-size: 0.85rem;
+	}
+	main .exercise {
+	    font-size: .85rem;
+	}
+	.sidebar .sidebar-wrapper h3 {
+	    text-transform: uppercase;
+	    font-size: 1.2rem;
+	}
+}
+
+
+
+@media screen and (min-device-width: 769px){
+	#nav-btn{
+		margin-top: calc(104px / 2 - 10px);
+	}
+}
+@media only screen and (min-width:769px){
+	#nav-btn{
+		margin-top: calc(104px / 2 - 10px);
+	}
+}
